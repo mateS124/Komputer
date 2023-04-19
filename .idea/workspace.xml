@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a74b19b9-4961-4725-9379-e76ba5a95ac9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/Headphones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/drive/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/drive/HDDDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/drive/SSDDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/imagefile/AbstractImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/imagefile/GIFImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/imagefile/JPGImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/musicfile/AbstractMusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/musicfile/MP3MusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/file/musicfile/MusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/usbdevice/MemoryStick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/usbdevice/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/komputer/usbdevice/USBDevice.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Odw1IsaBU2w8zmtNIZkUvoaK5q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.komputer.file" />
+      <recent name="pl.komputer" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a74b19b9-4961-4725-9379-e76ba5a95ac9" name="Changes" comment="" />
+      <created>1681903550961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681903550961</updated>
+    </task>
+    <servers />
+  </component>
+</project>
