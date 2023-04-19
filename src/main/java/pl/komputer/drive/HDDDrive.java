@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.function.Supplier;
 
 public class HDDDrive implements Drive {
-   private List<File> files = new ArrayList<>();
+   private final List<File> files = new ArrayList<>();
     @Override
     public void addFile(File file) {
         files.add(file);
@@ -28,12 +28,7 @@ public class HDDDrive implements Drive {
         Optional<File> foundFile = files.stream()
                 .filter(file -> file.getName().equals(name))
                 .findFirst();
-         return foundFile.orElseThrow(new Supplier<Throwable>() {
-             @Override
-             public Throwable get() {
-                 return null;
-             }
-         });
+         return foundFile.orElseThrow((Supplier<Throwable>) () -> null);
     }
 
 }
