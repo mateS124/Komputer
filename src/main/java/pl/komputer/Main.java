@@ -42,8 +42,7 @@ public class Main {
 //        File file = drive.findFile("plik.mp3");
 //        System.out.println(file.getSize());
 //
-//        MP3MusicFile mp3MusicFile = new MP3MusicFile("plik1.mp3", 4000, "Ed", "to jest bto", 1920);
-//        System.out.println(mp3MusicFile);
+       System.out.println(mp3MusicFile);
 
         GIFImageFile gifImageFile = new GIFImageFile("plik1.gif", 3500);
         System.out.println(gifImageFile);
