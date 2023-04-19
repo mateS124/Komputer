@@ -5,6 +5,7 @@ import pl.komputer.file.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Supplier;
 
 public class HDDDrive implements Drive {
    private List<File> files = new ArrayList<>();
@@ -23,11 +24,16 @@ public class HDDDrive implements Drive {
     }
 
     @Override
-    public File findFile(String name) {
+    public File findFile(String name) throws Throwable {
         Optional<File> foundFile = files.stream()
                 .filter(file -> file.getName().equals(name))
                 .findFirst();
-         return foundFile.orElseThrow();
+         return foundFile.orElseThrow(new Supplier<Throwable>() {
+             @Override
+             public Throwable get() {
+                 return null;
+             }
+         });
     }
 
 }

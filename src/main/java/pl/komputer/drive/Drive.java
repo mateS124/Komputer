@@ -6,5 +6,5 @@ public interface Drive {
     void addFile(File file);
     void listFile();
 
-    File findFile(String name);
+    File findFile(String name) throws Throwable;
 }
